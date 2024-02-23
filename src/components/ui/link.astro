@@ -1,0 +1,45 @@
+---
+interface Props {
+  href: string;
+  size?: 'md' | 'lg';
+  block?: boolean;
+  style?: 'secondary' | 'primary' | 'inverted';
+  class?: string;
+  [x: string]: any;
+}
+
+const {
+  href,
+  block,
+  size = 'lg',
+  style = 'primary',
+  class: className,
+  ...rest
+} = Astro.props;
+
+const sizes = {
+  lg: 'px-5 py-2.5',
+  md: 'px-4 py-2',
+};
+
+const styles = {
+  secondary:
+    'max-w-28 bg-[#221F39] hover:bg-gray-100 rounded-xl text-white uppercase',
+  primary:
+    'max-w-44 bg-gradient-to-r from-[#D80027] to-[#FB9E3C] text-white rounded-full',
+  inverted: 'bg-white text-black border-2 border-transparent',
+};
+---
+
+<a
+  href={href}
+  {...rest}
+  class:list={[
+    'rounded text-center transition focus-visible:ring-2 ring-offset-2 ring-gray-200',
+    block && 'w-full',
+    sizes[size],
+    styles[style],
+    className,
+  ]}>
+  <slot />
+</a>
