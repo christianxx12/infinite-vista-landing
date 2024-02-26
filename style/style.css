@@ -524,11 +524,12 @@ img {
   padding: 1.5rem;
   border-radius: 0.5rem;
   background-color: var(--primario);
+  color: var(--blanco);
 }
 
 .boton__3 {
   background-color: var(--rojo);
-  color: var(--primario);
+  color: var(--blanco);
   padding: 1rem 1rem;
   margin-top: 2rem;
   font-size: 1.5rem;
