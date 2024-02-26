@@ -745,6 +745,9 @@ img{
   .p-news{
     font-size: 1.5rem;
   }
+  .hr-news{
+    margin: 4rem 0;
+  }
 
 }
 /* FIN DE NEWS */
