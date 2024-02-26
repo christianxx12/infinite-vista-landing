@@ -5,9 +5,10 @@
   --rojo: #d80027;
   --blanco: #ffffff;
   --marron: #1c140f;
-  --blanco2: #E1D3CA;
+  --blanco2: hsl(23, 28%, 84%);
   --negro: black;
   --degr2: #3B2A9F;
+  --degr1: #070320;
   --azul: #2351F5;
   --rosa: #FF8484;
   --naranja:#FF7C32;
@@ -33,6 +34,7 @@ body {
   font-family: var(--fuenteHeading);
   background-color: var(--primario);
   color: var(--blanco);
+  background: linear-gradient(to bottom right,var(--degr1), var(--degr1) ,var(--degr2));
 }
 
 /*Globales*/
