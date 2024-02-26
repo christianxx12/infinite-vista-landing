@@ -86,32 +86,34 @@ img {
 .contenedor__top {
   margin-top: 5rem;
 }
+
 .margin__top {
-    margin-top: 10rem;
+  margin-top: 10rem;
 }
 .logo__posicion {
-    text-align: center;
+  text-align: center;
 }
 @media (min-width: 768px) {
-    .logo__posicion {
-        text-align: left;
-    }
+  .logo__posicion {
+    text-align: left;
+  }
 }
 /*Header*/
-/*.pagina__Home {
-    background-image: url(../img/logo.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position:  center center;
-}*/
+.pagina__Home {
+  background-image: url(../img/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 .section__texto {
-    margin-top: 5rem;
-    text-align: center;
+  margin-top: 5rem;
+  text-align: center;
 }
 @media (min-width: 768px) {
-    .section__texto{
-        text-align: left;
-    }
+  .section__texto {
+    text-align: left;
+  }
 }
 
 .header__texto {
@@ -131,7 +133,6 @@ img {
     align-items: center;
   }
 }
-
 .logo {
   color: var(--blanco);
 }
@@ -212,32 +213,31 @@ img {
   );
 }
 
-
 .section__Home {
-    background-image: url(../img/logo.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position:  center center;
+  background-image: url(../img/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 @media (min-width: 480px) {
-    .section__Home {
-        background-size: auto;
-    }
+  .section__Home {
+    background-size: auto;
+  }
 }
 .size {
-    max-width: 25%;
+  max-width: 25%;
 }
 
 @media (min-width: 480px) {
-    .size {
-        max-width: 100%;
-    }
+  .size {
+    max-width: 100%;
+  }
 }
 @media (min-width: 1240px) {
-    .size {
-        max-width: 35%;
-    }
+  .size {
+    max-width: 35%;
+  }
 }
 .grid__index {
   display: grid;
@@ -330,10 +330,6 @@ img {
   padding: 1rem;
 }
 @media (min-width: 1240px) {
-    .entrada__img {
-        border-radius: 10rem;
-        padding: 5rem;
-    }
   .entrada__img {
     border-radius: 10rem;
     padding: 5rem;
