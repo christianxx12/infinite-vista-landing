@@ -275,9 +275,7 @@ img {
   }
   */
 /*main*/
-.entrada__img {
-  width: 100%;
-}
+
 .entrada__info {
   text-align: center;
 }
@@ -332,12 +330,13 @@ img {
   }
 }
 .entrada__img {
-  border-radius: 2rem;
-  padding: 1rem;
+    width: 100%;
+    border-radius: 2rem;
+    padding: 1rem;
 }
 @media (min-width: 1240px) {
   .entrada__img {
-    border-radius: 10rem;
+    border-radius: 7rem;
     padding: 5rem;
   }
 }
