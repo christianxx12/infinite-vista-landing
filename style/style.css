@@ -714,6 +714,9 @@ img{
 .p-news{
   font-size: 1rem;
 }
+.indi-news{
+  padding-top: 5rem;
+}
 @media (min-width:768px){
   .entrada-news{
     display: grid;
