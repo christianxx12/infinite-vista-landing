@@ -46,6 +46,9 @@ body {
 .contenedor {
   width: min(90%, 120rem);
   margin: 0 auto;
+}
+
+.marginTop {
   margin-top: 100px;
 }
 
