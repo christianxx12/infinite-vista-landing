@@ -1,7 +1,7 @@
 :root {
   /*Colores*/
   --primario: #070320;
-  --naranja: #e87d0e;
+  --claro: #00ffff;
   --rojo: #d80027;
   --blanco: #ffffff;
   --marron: #1c140f;
@@ -66,7 +66,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: var(--fuenteHeading);
+  font-family: var(--fuenteTitulo);
   line-height: 1.2;
 }
 
@@ -101,7 +101,7 @@ img {
   text-align: center;
 }
 .color {
-  color: var(--naranja);
+  color: var(--claro);
 }
 .barra {
   padding-top: 4rem;
@@ -113,8 +113,14 @@ img {
 .margin__top {
   margin-top: 10rem;
 }
+.margin__botton {
+  margin-bottom:3rem;
+}
 .logo__posicion {
   text-align: center;
+}
+.upper {
+  text-transform: uppercase;
 }
 @media (min-width: 768px) {
   .logo__posicion {
@@ -134,12 +140,12 @@ img {
 }
 
 .header__texto {
-  margin-top: 5rem;
   text-align: center;
 }
 @media (min-width: 768px) {
   .header__texto {
     text-align: left;
+    padding: 11rem 0;
   }
 }
 
@@ -213,7 +219,9 @@ img {
 
 @media (min-width: 768px) {
   .boton {
-    display: inline-block;
+    display: block;
+    width: 21%;
+    margin:5rem 0 0 48rem;
   }
 }
 .boton:hover {
