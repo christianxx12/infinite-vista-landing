@@ -114,7 +114,7 @@ img {
   margin-top: 10rem;
 }
 .margin__botton {
-  margin-bottom:3rem;
+  margin-bottom: 3rem;
 }
 .logo__posicion {
   text-align: center;
@@ -223,14 +223,14 @@ img {
   .boton {
     display: block;
     width: 20%;
-    margin:0 auto;
+    margin: 0 auto;
     margin-top: 2rem;
   }
 }
 @media (min-width: 1240px) {
-    .boton__1 {
-      display: block;
-    }
+  .boton__1 {
+    display: block;
+  }
 }
 .boton:hover {
   cursor: pointer;
@@ -784,6 +784,34 @@ img {
 /* FIN DE NEWS */
 
 /* ABOUT INICIO */
+
+.about {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 50px 100px;
+  margin: 100px 0;
+}
+
+.about h4 {
+  font-size: 3rem;
+}
+
+.about p {
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+}
+
+@media (width < 768px) {
+  .about {
+    padding: 30px;
+  }
+}
+
+.team__section--title {
+  font-size: 3rem;
+}
+
 .team__container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -794,6 +822,10 @@ img {
   background-color: black;
   border-radius: 20px;
   text-align: center;
+}
+
+.whyWork__section h4 {
+  font-size: 3rem;
 }
 
 .whyWork__container {
