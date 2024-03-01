@@ -244,6 +244,11 @@ img {
     #e6103c 75%,
     #da003c 100%
   );
+  transition: transform 0.3s ease;
+}
+.boton--primario:hover{
+  cursor: pointer;
+  transform: scale(1.05);
 }
 
 .boton__3 {
