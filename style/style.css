@@ -815,6 +815,9 @@ img {
 .hr-news {
   margin: 4rem 0;
 }
+.espacio-texto{
+  padding-top: 15rem;
+}
 @media (min-width: 768px) {
   .entrada-news {
     display: grid;
