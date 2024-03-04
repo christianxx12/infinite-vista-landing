@@ -306,7 +306,7 @@ img {
 }
 
 .section__Home {
-  background-image: url(../img/logo.png);
+  background-image: url(../img/logo-ev-fondo.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -672,7 +672,9 @@ footer .footer-content {
   padding-bottom: 50px;
   margin-top: 100px;
 }
-
+.c-b{
+  font-weight: bold;
+}
 footer .footer-content--about {
   width: 30%;
 }
