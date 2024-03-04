@@ -324,7 +324,10 @@ img {
 }
 @media (min-width: 1240px) {
   .size {
-    max-width: 35%;
+    max-width: 75%;
+  }
+  .logo__posicion{
+    width: 25%;
   }
 }
 .grid__index {
