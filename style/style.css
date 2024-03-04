@@ -16,8 +16,7 @@
   --morado: #9921c3;
 
   /*Fuentes*/
-  --fuenteTitulo: "Rubik", sans-serif;
-  --fuenteHeading: "Poppins", sans-serif;
+  --fuente: "Roboto Condensed", sans-serif;
 }
 
 html {
@@ -30,8 +29,8 @@ html {
   box-sizing: inherit;
 }
 body {
-  font-family: var(--fuenteTitulo);
-  font-family: var(--fuenteHeading);
+  font-family: var(--fuente);
+  font-family: var(--fuente);
   background-color: var(--primario);
   color: var(--blanco);
   background: linear-gradient(
@@ -66,7 +65,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: var(--fuenteTitulo);
+  font-family: var(--fuente);
   line-height: 1.2;
 }
 
@@ -194,7 +193,7 @@ img {
 /*
 .boton {
   display: block;
-  font-family: var(--fuenteHeading);
+  font-family: var(--fuente);
   color: var(--blanco);
   text-align: center;
   padding: 1.5rem 4rem;
@@ -207,7 +206,7 @@ img {
   margin-top: 3rem;
 }*/
 .boton__pestaña {
-  font-family: var(--fuenteHeading);
+  font-family: var(--fuente);
   color: var(--blanco);
   padding: 1.5rem 4rem;
   font-size: 1.5rem;
@@ -216,7 +215,7 @@ img {
   border: none;
 }
 .boton--primario {
-  font-size: var(--fuenteHeading);
+  font-size: var(--fuente);
   color: var(--blanco);
   padding: 1.5rem 4rem;
   text-align: center;
@@ -238,7 +237,7 @@ img {
 }
 /*
 .boton-2 {
-  font-family: var(--fuenteHeading);
+  font-family: var(--fuente);
   color: var(--blanco);
   text-align: center;
   padding: 1.5rem 4rem;
