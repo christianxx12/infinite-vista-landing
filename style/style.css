@@ -260,7 +260,7 @@ img {
 @media (min-width: 768px) {
   .boton--primario {
     display: block;
-    width: 31%;
+    width: 32%;
     margin: 0 auto;
     margin-top: 6rem;
   }
@@ -403,15 +403,21 @@ img {
       margin-bottom: 5rem;
       
     }
-        .banner2{
-          flex-direction: row-reverse;
-        }
-        .banner4{
-          flex-direction: row-reverse;
-        }
+      .banner2{
+        flex-direction: row-reverse;
+      }
+      .banner4{
+        flex-direction: row-reverse;
+      }
 }
 .entrada__img {
   border-radius: 2rem;
+}
+@media (min-width: 1240px) {
+    .entrada__img {
+      padding: 5rem;
+      border-radius: 10rem;
+    }
 }
 
 .entrada__informacion,
@@ -419,7 +425,7 @@ img {
 .entrada__informacion--banner3,
 .entrada__informacion--banner4{
   text-align: center;
-  padding: 5rem 2rem;
+  padding: 2rem 2rem 5rem;
 }
 /*Contact Us*/
 .flex__contactUs {
