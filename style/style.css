@@ -121,6 +121,9 @@ img {
 .upper {
   text-transform: uppercase;
 }
+.text-left {
+  text-align: left;
+}
 
 @media (min-width: 768px) {
   .logo__posicion {
@@ -260,7 +263,7 @@ img {
 @media (min-width: 768px) {
   .boton--primario {
     display: block;
-    width: 32%;
+    width: 35%;
     margin: 0 auto;
     margin-top: 6rem;
   }
