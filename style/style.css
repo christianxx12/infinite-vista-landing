@@ -263,11 +263,12 @@ img {
 @media (min-width: 768px) {
   .boton--primario {
     display: block;
-    width: 35%;
+    width: 30%;
     margin: 0 auto;
     margin-top: 6rem;
   }
 }
+
 /*
     @media (min-width: 1240px) {
       .boton__1 {
@@ -311,7 +312,7 @@ img {
 }
 
 .section__Home {
-  background-image: url(../img/logo-ev-fondo.webp);
+  background-image: url(../img/LOGO_VISIONVRDE.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -339,6 +340,7 @@ img {
     width: 25%;
   }
 }
+/*
 .grid__index {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -350,11 +352,11 @@ img {
     grid-template-columns: repeat(4, 1fr);
     gap: 6rem;
   }
-}
+}*/
 
 /*main*/
 
-.entrada__info {
+.xfo {
   text-align: center;
 }
 
