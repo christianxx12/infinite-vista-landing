@@ -2,9 +2,8 @@
   /*Colores*/
   --primario: #070320;
   --claro: #00ffff;
-  --rojo: #d80027;
+  --rojo: #CCD1D1;
   --blanco: #F6FDFC;
-  --marron: #1c140f;
   --blanco2: hsl(23, 28%, 84%);
   --negro: black;
   --degr2: #3b2a9f;
@@ -14,6 +13,8 @@
   --naranja: #ff7c32;
   --verde: #23a54f;
   --morado: #9921c3;
+  --footHead: #E9E9E9;
+  --card: #DED9D6;
 
   /*Fuentes*/
   --fuente: "Roboto Condensed", sans-serif;
@@ -58,6 +59,7 @@ body {
 p {
   font-size: 1.5rem;
   line-height: 2rem;
+  color: var(--degr1);
 }
 
 a {
@@ -69,8 +71,8 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: var(--fuenteheaders);
   line-height: 1.2;
+  color: var(--degr1);
 }
 
 h1 {
@@ -128,6 +130,9 @@ img {
 .text-left {
   text-align: left;
 }
+.white {
+  color: var(--blanco);
+}
 
 @media (min-width: 768px) {
   .logo__posicion {
@@ -144,6 +149,9 @@ img {
   .section__texto {
     text-align: left;
   }
+}
+.pagina__Home {
+  background-color: var(--footHead);
 }
 
 .header__texto {
@@ -182,7 +190,7 @@ img {
   display: block;
   text-align: center;
   font-size: 1.2rem;
-  color: var(--blanco);
+  color: var(--primario);
   margin: 1rem;
   padding: 1rem;
   font-size: 1.5rem;
@@ -267,7 +275,7 @@ img {
 @media (min-width: 768px) {
   .boton--primario {
     display: block;
-    width: 30%;
+    width: 35%;
     margin: 0 auto;
     margin-top: 6rem;
   }
@@ -292,7 +300,7 @@ img {
 }
 
 .boton__3 {
-  background-color: var(--rojo);
+  background-color: var(--claro);
   color: var(--blanco);
   padding: 1rem 1rem;
   margin-top: 2rem;
@@ -316,15 +324,15 @@ img {
 }
 
 .section__Home {
-  background-image: url(../img/logo-ve-fondo-azul.png);
-  background-size: contain;
+  background-image: url(../img/logoversion2-1.png);
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 @media (min-width: 480px) {
   .section__Home {
-    background-size: auto;
+    background-size: 100%;
   }
 }
 .size {
@@ -380,7 +388,7 @@ img {
   }
 }
 .bg {
-  background-color: var(--marron);
+  background-color: var(--card);
 }
 /*servicios*/
 .services {
@@ -484,13 +492,13 @@ img {
   margin: 1rem 1rem;
 }
 
-.bg-white {
-  background-color: var(--blanco);
+.bg-black {
+  background-color: var(--primario);
 }
 /*Contact Us - formulario*/
 .formulario {
   width: min(60rem, 100%);
-  color: var(--primario);
+  color: var(--blanco);
   margin: 0 auto;
   padding: 2rem;
   border-radius: 1rem;
@@ -542,8 +550,7 @@ img {
   border: none;
   padding: 1.5rem;
   border-radius: 0.5rem;
-  background-color: var(--primario);
-  color: var(--blanco);
+  background-color: var(--blanco);
 }
 
 .line-height {
@@ -560,7 +567,7 @@ img {
 
 /* FOOTER INICIO */
 footer {
-  background-color: var(--blanco);
+  background-color: var(--footHead);
   color: black;
 }
 
@@ -825,7 +832,7 @@ img {
 }
 
 .whyWork__card {
-  background-color: var(--blanco);
+  background-color: var(--card);
   color: black;
   min-width: 300px;
   padding: 50px 40px;
