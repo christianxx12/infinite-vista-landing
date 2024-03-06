@@ -3,7 +3,7 @@
   --primario: #070320;
   --claro: #00ffff;
   --rojo: #d80027;
-  --blanco: #ffffff;
+  --blanco: #F6FDFC;
   --marron: #1c140f;
   --blanco2: hsl(23, 28%, 84%);
   --negro: black;
@@ -17,11 +17,13 @@
 
   /*Fuentes*/
   --fuente: "Roboto Condensed", sans-serif;
+  --fuenteheaders:  "Playfair Display", serif;
 }
 
 html {
   box-sizing: border-box;
   font-size: 65.5%;
+  
 }
 *,
 *:before,
@@ -29,16 +31,18 @@ html {
   box-sizing: inherit;
 }
 body {
-  font-family: var(--fuente);
-  font-family: var(--fuente);
+  
   background-color: var(--primario);
-  color: var(--blanco);
+  color: var(--primario);
+  font-family: var(--fuente);
+  /*
   background: linear-gradient(
     to bottom right,
     var(--degr1),
     var(--degr1),
     var(--degr2)
-  );
+  );*/
+  background-color: var(--blanco)
 }
 
 /*Globales*/
@@ -65,7 +69,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: var(--fuente);
+  font-family: var(--fuenteheaders);
   line-height: 1.2;
 }
 
@@ -451,7 +455,9 @@ img {
 }
 .img-mapa {
   margin: 5rem 0;
-  width: 70%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 @media (min-width: 768px) {
   .img-mapa {
