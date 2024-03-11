@@ -842,7 +842,6 @@ img {
 
 .whyWork__card .whyWork__card--title {
   font-size: 2rem;
-
   font-weight: bold;
 }
 
@@ -850,11 +849,12 @@ img {
   font-size: 1.4rem;
 }
 /* ABOUT FIN */
-/*.team__card:hover{
-  background-color: var(--rojo);
-  border-radius: 20px;
-  text-align: center;
-  /*height: 150%;
-  position: relative;
-  transform: scale(1.08);
-}*/
+
+.team__card::before {
+  opacity: 0;
+}
+.team__card:hover::before{
+  content: attr(data-content);
+  opacity: 1;
+  color: var(--blanco);
+}
