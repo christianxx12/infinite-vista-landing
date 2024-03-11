@@ -125,7 +125,57 @@
       <section class="">
         <h4 class="centrar-texto no-margin white">Contactanos</h4>
 
-        <form class="formulario">
+        <form  action="https://formsubmit.co/5dae27ac7f10c99c69fd05a61a5d1786" method="POST" class="formulario">
+          <fieldset>
+            <p class="white">Envianos tu opinion</p>
+
+            <div class="contenedor-campos">
+              <div class="campo">
+                <label>Nombres :</label>
+                <input
+                  class="input-text"
+                  type="text"
+                  placeholder="First Name"
+                  name="name"
+                />
+              </div>
+
+              <div class="campo">
+                <label>Apellidos :</label>
+                <input class="input-text"
+                       type="text"
+                       placeholder="Last Name"
+                       name="lastName" />
+              </div>
+
+              <div class="campo">
+                <label>Email :</label>
+                <input
+                  class="input-text"
+                  type="email"
+                  placeholder="Tu Email"
+                  name="email"
+                />
+              </div>
+
+              <div class="campo">
+                <label>Mensaje :</label>
+                <textarea class="input-text"
+                          name="comments"
+                ></textarea>
+              </div>
+            </div><!--contenedor campos-->
+
+            <div class="alinear-derecha flex">
+              <input class="boton__3" type="submit" value="enviar" />
+            </div>
+
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/contact-us.html">
+            <input type="hidden" name="_captcha" value="false" >
+          </fieldset>
+        </form>
+
+        <!--<form class="formulario">
           <fieldset>
             <p class="white">Envianos tu opinion</p>
 
@@ -158,13 +208,14 @@
                 <textarea class="input-text"></textarea>
               </div>
             </div>
-            <!--contenedor-campos-->
+
+            /*contenedor-campos*/
 
             <div class="alinear-derecha flex">
               <input class="boton__3" type="submit" value="enviar" />
             </div>
           </fieldset>
-        </form>
+        </form>-->
       </section>
     </main>
     <!--principal-->
