@@ -810,10 +810,12 @@ img {
   justify-content: center;
   gap: 40px;
 }
+
 .team__card {
   background-color: black;
   border-radius: 20px;
   text-align: center;
+  transition: transform 0.3s ease;
 }
 
 .whyWork__section {
@@ -848,3 +850,11 @@ img {
   font-size: 1.4rem;
 }
 /* ABOUT FIN */
+/*.team__card:hover{
+  background-color: var(--rojo);
+  border-radius: 20px;
+  text-align: center;
+  /*height: 150%;
+  position: relative;
+  transform: scale(1.08);
+}*/
