@@ -850,11 +850,23 @@ img {
   font-size: 1.4rem;
 }
 /* ABOUT FIN */
-/*.team__card:hover{
-  background-color: var(--rojo);
-  border-radius: 20px;
-  text-align: center;
-  /*height: 150%;
-  position: relative;
+.img__card{
+  transition: transform 0.3s ease;
+}
+.img-demo{
+  border-radius: 7%;
+}
+.img-demo-des{
+  border-radius: 7%;
+}
+.img__card img:last-child{
+  display: none;
+}
+.img__card:hover img:first-child{
+  display: none;
+}
+.img__card:hover img:last-child{
+  display: block;
   transform: scale(1.08);
-}*/
+}
+
