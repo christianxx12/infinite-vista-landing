@@ -850,11 +850,23 @@ img {
 }
 /* ABOUT FIN */
 
-.team__card::before {
-  opacity: 0;
+.img__card{
+  transition: transform 0.3s ease;
 }
-.team__card:hover::before{
-  content: attr(data-content);
-  opacity: 1;
-  color: var(--blanco);
+.img-demo{
+  border-radius: 7%;
 }
+.img-demo-des{
+  border-radius: 7%;
+}
+.img__card img:last-child{
+  display: none;
+}
+.img__card:hover img:first-child{
+  display: none;
+}
+.img__card:hover img:last-child{
+  display: block;
+  transform: scale(1.08);
+}
+
